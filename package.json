@@ -1,0 +1,27 @@
+{
+  "name": "whispersinthewind",
+  "version": "1.0.0",
+  "description": "A Discord-Bot made with Electron and Node.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Di4bel/WhispersInTheWind.git"
+  },
+  "keywords": [
+    "Discord",
+    "Bot",
+    "JS"
+  ],
+  "author": "Di4bel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Di4bel/WhispersInTheWind/issues"
+  },
+  "homepage": "https://github.com/Di4bel/WhispersInTheWind#readme",
+  "devDependencies": {
+    "electron": "^18.2.2"
+  }
+}
