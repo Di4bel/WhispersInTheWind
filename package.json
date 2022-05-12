@@ -4,7 +4,7 @@
   "description": "A Discord-Bot made with Electron and Node.js",
   "main": "index.js",
   "scripts": {
-    "test": "test"
+    "start": "electron ."
   },
   "repository": {
     "type": "git",
