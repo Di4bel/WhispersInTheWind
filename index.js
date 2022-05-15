@@ -7,6 +7,7 @@ function createWindow () {
   const mainWindow = new BrowserWindow({
     width: 800,
     height: 600,
+    title: "Whispers in the Wind",
   })
 
   // and load the index.html of the app.
