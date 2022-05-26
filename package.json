@@ -22,6 +22,6 @@
   },
   "homepage": "https://github.com/Di4bel/WhispersInTheWind#readme",
   "devDependencies": {
-    "electron": "^18.2.2"
+    "electron": "^18.3.1"
   }
 }
