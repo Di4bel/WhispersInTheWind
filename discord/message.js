@@ -8,8 +8,6 @@ client.login(discordToken);
 
 // Add a json list
 let list = require("./message.json");
-console.log(list[0][0]);
-console.log(typeof list[0][0]);
 
 // Message listener
 client.on('messageCreate', msg => {
