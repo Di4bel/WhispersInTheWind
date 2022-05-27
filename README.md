@@ -6,13 +6,13 @@ A Electron-Programm with different Themes:
     + Connects ✔  
     + Functions ✔
 
-    ---
+---
     Spotify:
-    --------
+--------
     + in development
-    ---
+---
     Twitch-Bot:
-    -----------
+-----------
     + in development
-    ---
+---
 
