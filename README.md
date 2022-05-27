@@ -3,7 +3,7 @@ A Electron-Programm with different Themes:
 ---
 Discord-Bot:
 ------------
-Connects ✔
+Connects ✔  
 Functions ✔
 
 ---
