@@ -6,7 +6,7 @@ let discordToken = process.env.DISCORD_TOKEN;
 client.login(discordToken);
 
 // Message listener
-client.on('message', msg => {
+client.on('messageCreate', msg => {
     if (msg.content === 'ping') {
         msg.reply('pong');
     }
