@@ -1,6 +1,6 @@
 # WhispersInTheWind
 ## A Electron-Programm with different Themes:
----
+
 ### _Discord-Bot:_
 * Connects ✔  
 * Functions ✔
