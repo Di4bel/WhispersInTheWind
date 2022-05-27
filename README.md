@@ -1,17 +1,17 @@
 # WhispersInTheWind
 ## A Electron-Programm with different Themes:
 ---
-### -Discord-Bot:-
-    + Connects ✔  
-    + Functions ✔
+### _Discord-Bot:_
+    * Connects ✔  
+    * Functions ✔
 
 ---
-### -Spotify:-
+### _Spotify:_
 
-    + in development
+    * in development
 ---
-### -Twitch-Bot:-
+### _Twitch-Bot:_
 
-    + in development
+    * in development
 ---
 
