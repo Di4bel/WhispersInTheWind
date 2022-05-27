@@ -23,5 +23,9 @@
   "homepage": "https://github.com/Di4bel/WhispersInTheWind#readme",
   "devDependencies": {
     "electron": "^18.3.1"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.1",
+    "node-fetch": "^3.2.4"
   }
 }

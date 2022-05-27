@@ -1,0 +1,14 @@
+{
+  "name": "discordconnect",
+  "version": "1.0.0",
+  "description": "Connect to the discord bot",
+  "main": "connect.js",
+  "scripts": {
+    "test": "connect"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.1"
+  }
+}
