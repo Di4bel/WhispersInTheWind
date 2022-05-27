@@ -1,19 +1,19 @@
 # WhispersInTheWind
-A Electron-Programm with different Themes:
+## A Electron-Programm with different Themes:
 ---
-Discord-Bot:
+### Discord-Bot:
 ---
 ---
     + Connects ✔  
     + Functions ✔
 
 ---
-Spotify:
+### Spotify:
 ----
 ---
     + in development
 ---
-Twitch-Bot:
+### Twitch-Bot:
 ---
 ---
     + in development
