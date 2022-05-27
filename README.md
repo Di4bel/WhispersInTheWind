@@ -2,16 +2,16 @@
 ## A Electron-Programm with different Themes:
 ---
 ### _Discord-Bot:_
-    * Connects ✔  
-    * Functions ✔
+* Connects ✔  
+* Functions ✔
 
 ---
 ### _Spotify:_
 
-    * in development
+* in development
 ---
 ### _Twitch-Bot:_
 
-    * in development
+* in development
 ---
 
