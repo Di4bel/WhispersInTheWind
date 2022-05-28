@@ -1,7 +1,7 @@
 //Require
 require('dotenv').config()
 
-const { Client, Discord, Intents } = require('discord');
+const { Client, Discord, Intents } = require('discord.js');
 
 //Discord-Bot Intents via bitfield
 const myIntents = new Intents(32767);

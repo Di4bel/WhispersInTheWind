@@ -1,4 +1,3 @@
-require("discord.js");
 const { Client, Discord, Intents, Message } = require('discord.js');
 const { parse } = require("dotenv");
 const myIntents = new Intents(32767);
