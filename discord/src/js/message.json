@@ -1,0 +1,25 @@
+[
+    [
+        "/ping",
+        "pong"
+    ],
+    [
+        "!test",
+        "Test erfolgreich"
+    ],
+    [
+        "per",
+        {
+            "name": "permissions",
+            "description": "Get or edit permissions for a user or a role",
+            "options": []
+        }
+    ],
+    [
+        {
+            "name": "permissions",
+            "description": "Get or edit permissions for a user or a role",
+            "options": []
+        }
+    ]
+]

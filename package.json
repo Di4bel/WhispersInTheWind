@@ -1,0 +1,22 @@
+{
+  "name": "whispersinthewind",
+  "version": "1.0.0",
+  "description": "a node.js project",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Di4bel/WhispersInTheWind.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Di4bel/WhispersInTheWind/issues"
+  },
+  "homepage": "https://github.com/Di4bel/WhispersInTheWind#readme",
+  "dependencies": {
+    "discord.js": "^14.11.0"
+  }
+}
