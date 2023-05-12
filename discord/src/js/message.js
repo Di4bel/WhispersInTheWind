@@ -6,9 +6,9 @@ const { writeFile } = require('fs')
 const client = connect.client
 
 // Add a json list
-let list = require("./message.json");
-const { User } = require('discord.js');
-const { stringify } = require('querystring');
+let list = require("./commands.json")
+const { stringify } = require('querystring')
+let lastMessage
 
 // Message listener
 client.on('messageCreate', msg => {
@@ -18,7 +18,7 @@ client.on('messageCreate', msg => {
         let listitems = list[x];
         if (msg.content == String(listitems[0])) {
 
-            msg.reply(String(listitems[1]));
+            msg.reply(String(listitems[1]))
         }
     }
     if (msg.content == "data") {
@@ -28,15 +28,19 @@ client.on('messageCreate', msg => {
     if (msg.author.username == 'Silva') {
         msg.reply('shut up')
     }
-
+    if (msg.content == "report") {
+        report(lastMessage)
+        msg.reply("Message-Data example has been writtten")
+        msg.reply(`\`\`\`json\n ${lastMessage} \`\`\``)
+        return
+    }
+    lastMessage = JSON.stringify(msg)
 }
 );
 
-const data = JSON.stringify({
-    data: [1, 2]
-})
-
-/* writeFile('message.txt', data, (err) => {
-    if (err) throw err;
-    console.log('The file has been saved!');
-}); */
+function report(input) {
+    writeFile('message.json', JSON.stringify(input), (err) => {
+        if (err) throw err;
+        console.log('The file has been saved!')
+    })
+}
